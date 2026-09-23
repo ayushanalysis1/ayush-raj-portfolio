@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ayush Raj — Data Analyst portfolio featuring Python, SQL, Power BI, Excel and data analytics projects.">
+<title>Ayush Raj | Data Analyst Portfolio</title>
+<style>
+:root{--bg:#07111f;--card:#0d1b2d;--text:#eef5ff;--muted:#9db0c8;--accent:#58c7ff;--accent2:#7c8cff;--border:rgba(255,255,255,.10);--max:1120px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 15% 10%,rgba(88,199,255,.14),transparent 28%),radial-gradient(circle at 85% 20%,rgba(124,140,255,.12),transparent 25%),var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:10;background:rgba(7,17,31,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:1.25rem;font-weight:800}.brand span{color:var(--accent)}
+.links{display:flex;gap:24px;color:var(--muted);font-size:.95rem}.links a:hover{color:var(--text)}
+.hero{padding:110px 0 90px}.eyebrow{display:inline-block;color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;margin-bottom:18px}
+h1{font-size:clamp(2.7rem,7vw,5.5rem);line-height:1.02;max-width:900px;letter-spacing:-.05em}
+h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:720px;color:var(--muted);font-size:1.12rem;margin:24px 0 30px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:12px 18px;border-radius:12px;border:1px solid var(--border);font-weight:700;transition:.2s}.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#06101c;border:0}.btn:hover{transform:translateY(-2px)}
+section{padding:78px 0}.section-title{font-size:2rem;margin-bottom:10px}.section-sub{color:var(--muted);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:rgba(13,27,45,.78);border:1px solid var(--border);border-radius:18px;padding:24px;box-shadow:0 15px 45px rgba(0,0,0,.12)}
+.card h3{margin-bottom:8px}.card p{color:var(--muted)}.tag{display:inline-block;padding:6px 9px;margin:12px 6px 0 0;border-radius:999px;background:rgba(88,199,255,.09);color:#bfeaff;font-size:.8rem}
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}.fact{padding:16px;border:1px solid var(--border);border-radius:14px}.fact strong{display:block;font-size:1.25rem}.fact span{color:var(--muted);font-size:.9rem}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact a{color:var(--accent)}footer{padding:30px 0 50px;color:var(--muted);border-top:1px solid var(--border)}
+@media(max-width:800px){.links{display:none}.grid,.about,.contact{grid-template-columns:1fr}.hero{padding-top:80px}.facts{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#home">Ayush<span>.</span></a><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="eyebrow">Aspiring Data Analyst • India</div>
+<h1>Turning data into <span>clear insights.</span></h1>
+<p>Hi, I'm Ayush Raj. A BCA graduate and aspiring Data Analyst who enjoys exploring datasets, cleaning messy data, finding patterns and building useful dashboards.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="#contact">Let's Connect</a></div>
+</div></section>
+
+<section id="about"><div class="wrap about">
+<div><div class="eyebrow">About Me</div><h2 class="section-title">Curious about data. Focused on business insights.</h2>
+<p class="section-sub">I have trained in data analytics with hands-on work across Python, SQL, Power BI and Excel. My projects focus on data cleaning, exploratory analysis, visualization and communicating findings clearly.</p>
+<p class="section-sub">I'm currently looking for fresher / entry-level Data Analyst opportunities where I can learn, contribute and grow with a data-driven team.</p></div>
+<div class="card facts"><div class="fact"><strong>BCA</strong><span>Education</span></div><div class="fact"><strong>Python</strong><span>Analytics</span></div><div class="fact"><strong>SQL</strong><span>Data querying</span></div><div class="fact"><strong>Power BI</strong><span>Dashboards</span></div></div>
+</div></section>
+
+<section id="skills"><div class="wrap"><div class="eyebrow">Toolkit</div><h2 class="section-title">Skills</h2><p class="section-sub">Tools I use to turn raw data into analysis and visual stories.</p>
+<div class="grid">
+<div class="card"><h3>Data Analysis</h3><p>Data cleaning, EDA, missing-value handling, duplicate checks, trend analysis and insight generation.</p><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Matplotlib</span></div>
+<div class="card"><h3>BI & Reporting</h3><p>Interactive dashboards, KPI reporting and visual storytelling for business questions.</p><span class="tag">Power BI</span><span class="tag">Excel</span></div>
+<div class="card"><h3>Data & Cloud</h3><p>SQL querying plus foundational knowledge of AWS and machine learning concepts.</p><span class="tag">SQL</span><span class="tag">AWS</span><span class="tag">Basic ML</span></div>
+</div></div></section>
+
+<section id="projects"><div class="wrap"><div class="eyebrow">Selected Work</div><h2 class="section-title">Projects</h2><p class="section-sub">Practical projects built while learning data analytics.</p>
+<div class="grid">
+<div class="card"><h3>🏏 IPL Data Analysis</h3><p>Analyzed IPL data using Python to clean records, inspect missing values and duplicates, explore player/team trends and create visualizations.</p><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Visualization</span></div>
+<div class="card"><h3>🛒 E-commerce Sales Analysis</h3><p>Explored sales data to understand product performance, trends and business insights using data analysis and visualization techniques.</p><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Power BI</span></div>
+<div class="card"><h3>🎮 PUBG Mobile Data Report</h3><p>Built a data-focused report exploring match-level performance and gameplay metrics, turning raw records into understandable KPIs and insights.</p><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Dashboard</span></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="eyebrow">Contact</div><h2 class="section-title">Let's connect.</h2><p class="section-sub">I'm open to fresher and entry-level Data Analyst opportunities, projects and professional connections.</p>
+<div class="contact"><div class="card"><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/ayush-raj-467013430/" target="_blank" rel="noopener">linkedin.com/in/ayush-raj-467013430</a></p></div>
+<div class="card"><h3>Email</h3><p><a href="mailto:ayush993107raj@icloud.com">ayush993107raj@icloud.com</a></p><p style="margin-top:10px;font-size:.85rem;color:var(--muted)">Available for Data Analyst opportunities and professional connections.</p></div></div>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 Ayush Raj • Data Analyst Portfolio</div></footer>
+</body>
+</html>
